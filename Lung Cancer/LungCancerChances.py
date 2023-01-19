@@ -33,5 +33,5 @@ df_cancer['AGE'].plot.hist(bins=20)
 plt.show()
 
 
-sns.displot(df_cancer, x= 'AGE', hue= 'LUNG_CANCER')
+sns.displot(df_cancer, x= 'AGE', hue= 'LUNG_CANCER', multiple= 'stack')
 plt.show()
