@@ -35,3 +35,9 @@ plt.show()
 
 sns.displot(df_cancer, x= 'AGE', hue= 'LUNG_CANCER', multiple= 'stack')
 plt.show()
+
+df_cancer21  =  df_cancer[(df_cancer["AGE"]== 21) & (df_cancer["LUNG_CANCER"] == "YES")]
+print(df_cancer21)
+
+df_cancer22  =  df_cancer[(df_cancer["AGE"]== 21) & (df_cancer["LUNG_CANCER"] == "NO")]
+print(df_cancer22)
