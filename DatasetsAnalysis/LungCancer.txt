@@ -1,0 +1,21 @@
+Lung Cancer Dataset is obtained from kaggle source: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer
+
+
+Lung Cancer....... 
+
+A desease in wich many factors have influence to develop it, or maybe not as is generally thought ?...so, reading the data :)
+
+
+-How can Lung Cancer data can be used?
+  1. To know which habits make people more likely to get this desease
+  2. Highlight the attributes most closely related to getting cancer... why? more careful...more research...keep an eye 
+  3. Predict who can get cancer... why?.. in how long from know?
+
+
+	Looking atributes closely 
+   
+     Anxiety??   
+
+
+
+s
