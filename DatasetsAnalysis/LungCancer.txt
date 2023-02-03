@@ -12,6 +12,7 @@ A desease in wich many factors have influence to develop it, or maybe not as is 
   3. Predict who can get cancer... why?.. in how long from know?
 
 
+
 	Looking atributes closely 
  
  Anxiety
@@ -29,5 +30,6 @@ A desease in wich many factors have influence to develop it, or maybe not as is 
 
  Swallowing Difficulties
  Dysphagia is the medical term for swallowing difficulties. Some people with dysphagia have problems swallowing certain foods or liquids, while others can't swallow at all.
+
 
 
