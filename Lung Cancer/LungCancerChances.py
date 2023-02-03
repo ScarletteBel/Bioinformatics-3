@@ -50,10 +50,23 @@ print(df_cancer22)
 
 
 
+
+
 #Correlation matriz...
 corr_matrix = df_cancer.corr()
 print(corr_matrix)
 
 sns.heatmap(corr_matrix)
 plt.show()
+
+
+
+#### measures of disepersion ####
+
+
+
+
+
+
+
 

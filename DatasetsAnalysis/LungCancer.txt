@@ -39,8 +39,7 @@ Peer_pressure: categorico
 Chronic disease: categorico
 Fatigue: categorico
 Allergy: categorico
-Wheez
-ing: categorico
+Wheezing: categorico
 
 
 
