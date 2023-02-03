@@ -1,13 +1,13 @@
 Lung Cancer Dataset is obtained from kaggle source: https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer
 
 
-Lung Cancer....... 
+	Lung Cancer....
 
 A desease in wich many factors have influence to develop it, or maybe not as is generally thought ?...so, reading the data :)
 
 
--How can Lung Cancer data can be used?
-  1. To know which habits make people more likely to get this desease
+ -How can Lung Cancer data can be used?
+  1. To know which habits make people more likely to get this dessease
   2. Highlight the attributes most closely related to getting cancer... why? more careful...more research...keep an eye 
   3. Predict who can get cancer... why?.. in how long from know?
 
@@ -15,21 +15,39 @@ A desease in wich many factors have influence to develop it, or maybe not as is 
 
 	Looking atributes closely 
  
- Anxiety
- Acording with the Mental Health Information, genetic and environmental factors contribute to the risk of developing an anxiety disorder.
+ -Anxiety
+  Acording with the Mental Health Information, genetic and environmental factors contribute to the risk of developing an anxiety disorder.
+ -Peer-presure 
+  The process by which members of the same social group influence other members to do things that they may be resistant to, or might not otherwise choose to do (Elizabeth Hartney, 2022).
+ -Chronic disease
+  Are defined broadly as conditions that last 1 year or more and require ongoing medical attention or limit activities of daily living or both (NCCDPHP, 2O22).
+ -Wheezing
+  Is a high-pitched whistling sound made while breathing. It's often associated with difficulty breathing (Mayo Clinic ). 
+ -Swallowing Difficulties
+  Dysphagia is the medical term for swallowing difficulties. Some people with dysphagia have problems swallowing certain foods or liquids, while others can't swallow at all.
 
+
+
+Data Classification
+
+Gender: categórico nominal 
+Age: Numerico discreto 
+Smoking: categorico 
+Yellow fingers: categorico
+Anxiety: categorico
+Peer_pressure: categorico
+Chronic disease: categorico
+Fatigue: categorico
+Allergy: categorico
+Wheez
+ing: categorico
+
+
+
+	Acording to the data classification and the question to answer... This are recomended analysis..
  
- Peer-presure 
- The process by which members of the same social group influence other members to do things that they may be resistant to, or might not otherwise choose to do (Elizabeth Hartney, 2022).
 
- Chronic disease
- Are defined broadly as conditions that last 1 year or more and require ongoing medical attention or limit activities of daily living or both (NCCDPHP, 2O22).
-
- Wheezing
- Is a high-pitched whistling sound made while breathing. It's often associated with difficulty breathing (Mayo Clinic ). 
-
- Swallowing Difficulties
- Dysphagia is the medical term for swallowing difficulties. Some people with dysphagia have problems swallowing certain foods or liquids, while others can't swallow at all.
-
-
-
+ 1. Chi-squared: Compare two categorical variables that migh have hoch influence in the lung cancer positive 
+ 2. Fisher's Exact test: Whithout clear assumptions between chi-squared 
+ 3. One-way ANOVA: Comparision of variable with many categorical variables 
+ 4. Multinomial logistic regression: multiple categorical data prediction 

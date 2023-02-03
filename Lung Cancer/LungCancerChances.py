@@ -4,6 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 
 
+
+
 df_cancer = pd.read_csv('surveylungcancer.csv')
 print(df_cancer)
 
@@ -45,4 +47,13 @@ plt.show()
 #Filtering...
 df_cancer22  =  df_cancer[(df_cancer["AGE"]== 21) & (df_cancer["LUNG_CANCER"] == "NO")]
 print(df_cancer22)
+
+
+
+#Correlation matriz...
+corr_matrix = df_cancer.corr()
+print(corr_matrix)
+
+sns.heatmap(corr_matrix)
+plt.show()
 
