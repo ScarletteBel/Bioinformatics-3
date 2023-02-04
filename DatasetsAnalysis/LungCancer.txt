@@ -30,16 +30,16 @@ A desease in wich many factors have influence to develop it, or maybe not as is 
 
 Data Classification
 
-Gender: categórico nominal 
-Age: Numerico discreto 
-Smoking: categorico 
-Yellow fingers: categorico
-Anxiety: categorico
-Peer_pressure: categorico
-Chronic disease: categorico
-Fatigue: categorico
-Allergy: categorico
-Wheezing: categorico
+Gender: categoric nominal 
+Age: Numeric discret
+Smoking: categoric 
+Yellow fingers: categoric
+Anxiety: categoric
+Peer_pressure: categoric
+Chronic disease: categoric
+Fatigue: categoric
+Allergy: categoric
+Wheezing: categoric
 
 
 
@@ -50,3 +50,4 @@ Wheezing: categorico
  2. Fisher's Exact test: Whithout clear assumptions between chi-squared 
  3. One-way ANOVA: Comparision of variable with many categorical variables 
  4. Multinomial logistic regression: multiple categorical data prediction 
+
