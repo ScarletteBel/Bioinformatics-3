@@ -51,3 +51,8 @@ Wheezing: categoric
  3. One-way ANOVA: Comparision of variable with many categorical variables 
  4. Multinomial logistic regression: multiple categorical data prediction 
 
+
+
+Chi-squared 
+
+
