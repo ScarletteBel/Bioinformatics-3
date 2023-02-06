@@ -63,10 +63,32 @@ plt.show()
 
 #### measures of disepersion ####
 
+standar_Dev = df_cancer['AGE'].std()
+print(standar_Dev)
+
+
+rango = df_cancer['AGE'].max() - df_cancer['AGE'].min()
+print(rango)
 
 
 
+median = df_cancer['AGE'].median()
 
+q1 = df_cancer['AGE'].quantile(q=0.25)
+q3 = df_cancer['AGE'].quantile(q=0.75)
 
+min_val = df_cancer['AGE'].quantile(q=0)
+max_val = df_cancer['AGE'].quantile(q=1)
+
+print()
+print(median)
+print(q1)
+print(q3)
+print(min_val)
+print(max_val)
+print()
+
+iqr = q3 - q1
+print(iqr)
 
 
