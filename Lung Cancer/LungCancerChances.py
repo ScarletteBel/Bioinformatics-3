@@ -91,4 +91,21 @@ print()
 iqr = q3 - q1
 print(iqr)
 
+#applicable for simetric distribution ..
+minlimit = q1 - 1.5*iqr
+maxlimit = q3 +1.5*iqr
 
+print(minlimit, maxlimit)
+
+
+sns.histplot(df_cancer['AGE'])
+plt.show()
+
+sns.boxplot(df_cancer['AGE'])
+plt.show()
+
+
+sns.boxplot(x= 'AGE', y='LUNG_CANCER', data= df_cancer)
+plt.show()
+
+##
