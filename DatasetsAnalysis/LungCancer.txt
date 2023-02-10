@@ -53,6 +53,4 @@ Wheezing: categoric
 
 
 
-Chi-squared 
-
 
