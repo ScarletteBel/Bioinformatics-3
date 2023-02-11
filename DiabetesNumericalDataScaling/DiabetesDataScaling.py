@@ -3,7 +3,7 @@
 
 
 import timeit # measuring model's performance (execution time with transformed data or original data)
-import numpy as no 
+import numpy as np 
 import pandas as pd 
 import matplotlib.pyplot as plt 
 from sklearn import datasets, linear_model
@@ -39,3 +39,18 @@ scaled_time = timeit.timeit(trained_scaled, number= 100)
 
 print('train raw: {}'.format(raw_time))
 print('train scaled: {}'.format(scaled_time))
+
+
+
+##Non linear transformation 
+df = pd.read_csv('cars.csv')
+df.price_usd.hist()
+plt.show()
+
+#Transformatin with hyperbolic tan, tanh(x)
+df.price_usd.apply(lambda x: np.tanh(x)).hist()
+plt.show()
+
+p= 10000 #calibrating
+df.price_usd.apply(lambda x: np.tanh(x/p)).hist()
+plt.show()
