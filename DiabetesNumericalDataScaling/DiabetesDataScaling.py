@@ -54,3 +54,6 @@ plt.show()
 p= 10000 #calibrating
 df.price_usd.apply(lambda x: np.tanh(x/p)).hist()
 plt.show()
+
+
+##
