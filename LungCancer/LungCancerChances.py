@@ -109,7 +109,3 @@ sns.boxplot(x= 'AGE', y='LUNG_CANCER', data= df_cancer)
 plt.show()
 
 
-
-### Visualization ###
-
-##Keep looking in LungCancerChances.py file 
