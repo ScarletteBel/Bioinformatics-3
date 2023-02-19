@@ -56,4 +56,3 @@ df.price_usd.apply(lambda x: np.tanh(x/p)).hist()
 plt.show()
 
 
-##
